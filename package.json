@@ -1,0 +1,18 @@
+{
+  "name": "nextjs-cli",
+  "version": "1.0.0",
+  "description": "Command Line Interface for nextjs",
+  "main": "bin/index.js",
+  "bin": {
+    "nc": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel Puchner",
+  "license": "ISC",
+  "dependencies": {
+    "edit-json-file": "^1.6.0",
+    "yargs": "^17.2.1"
+  }
+}
